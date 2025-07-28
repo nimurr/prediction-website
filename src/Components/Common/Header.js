@@ -13,7 +13,7 @@ const Header = () => {
         { label: 'Home', href: '/' },
         { label: 'Submit Prediction', href: '/submit' },
         { label: 'Casino Reviews', href: '/casino-reviews' },
-        { label: 'Score Predictions', href: '/scores' },
+        { label: 'Score Predictions', href: '/score-predictions' },
         { label: 'Price Predictions', href: '/prices' },
         { label: 'Poker', href: '/poker' },
     ];
