@@ -15,8 +15,7 @@ const Footer = () => {
             <div className="contiainer mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
                 {/* Left: Logo */}
                 <div className="flex items-center gap-2">
-                    <img src="/logo.png" alt="logo" className="h-6 w-6" />
-                    <span className="text-[#834cd6e7] font-semibold text-lg">Logo</span>
+                    <img src="/Images/Auth/footer-logo.png" alt="logo" className="max-w-32" />
                 </div>
 
                 {/* Divider - Only visible on md+ screens */}

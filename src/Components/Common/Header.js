@@ -24,8 +24,7 @@ const Header = () => {
                 {/* Logo */}
                 <Link href="/">
                     <div className="flex items-center gap-2 text-[#4c1d95] font-bold text-xl">
-                        <img src="/logo.png" alt="logo" className="h-6 w-6" />
-                        Logo
+                        <img src="/Images/Auth/Header-logo.png" alt="logo" className='max-w-34' />
                     </div>
                 </Link>
 
