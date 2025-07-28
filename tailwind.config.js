@@ -7,8 +7,15 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: "#1D4ED8", // Custom primary color
+                primary: "#4c1d95", // Custom primary color
                 secondary: "#D97706", // Custom secondary color
+            },
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'], // Custom font family
+            },
+            spacing: {
+                '128': '32rem', // Custom spacing
+                '144': '36rem',
             },
         },
     },
