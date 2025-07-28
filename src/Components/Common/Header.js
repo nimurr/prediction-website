@@ -20,12 +20,12 @@ const Header = () => {
 
     return (
         <header className="w-full shadow-md bg-white sticky top-0 z-50 py-2">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+            <div className="contiainer mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/">
                     <div className="flex items-center gap-2 text-[#4c1d95] font-bold text-xl">
                         <img src="/logo.png" alt="logo" className="h-6 w-6" />
-                        SportIQ
+                        Logo
                     </div>
                 </Link>
 

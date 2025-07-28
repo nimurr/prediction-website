@@ -12,11 +12,11 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <footer className="bg-[#1e1e1e] text-white py-6">
-            <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="contiainer mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
                 {/* Left: Logo */}
                 <div className="flex items-center gap-2">
                     <img src="/logo.png" alt="logo" className="h-6 w-6" />
-                    <span className="text-[#834cd6e7] font-semibold text-lg">SportIQ</span>
+                    <span className="text-[#834cd6e7] font-semibold text-lg">Logo</span>
                 </div>
 
                 {/* Divider - Only visible on md+ screens */}
@@ -31,18 +31,18 @@ const Footer = () => {
                 <div className="hidden md:block h-6 w-[1px] bg-gray-500" />
 
                 {/* Right: Social Icons */}
-                <div className="flex gap-3 text-[#d2cbe8] text-lg">
-                    <Link href="https://facebook.com" target="_blank" aria-label="Facebook">
-                        <FaFacebookF className="hover:text-white transition" />
+                <div className="flex gap-5 text-[#d2cbe8] text-lg">
+                    <Link href="https://facebook.com" target="_blank" title='Facebook' aria-label="Facebook">
+                        <FaFacebookF className="hover:text-white transition text-2xl" />
                     </Link>
-                    <Link href="https://twitter.com" target="_blank" aria-label="X / Twitter">
-                        <FaXTwitter className="hover:text-white transition" />
+                    <Link href="https://twitter.com" target="_blank" title='Twitter' aria-label="X / Twitter">
+                        <FaXTwitter className="hover:text-white transition text-2xl" />
                     </Link>
-                    <Link href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-                        <FaLinkedinIn className="hover:text-white transition" />
+                    <Link href="https://linkedin.com" target="_blank" title='Linkedin' aria-label="LinkedIn">
+                        <FaLinkedinIn className="hover:text-white transition text-2xl" />
                     </Link>
-                    <Link href="https://instagram.com" target="_blank" aria-label="Instagram">
-                        <FaInstagram className="hover:text-white transition" />
+                    <Link href="https://instagram.com" target="_blank" title='Instagram' aria-label="Instagram">
+                        <FaInstagram className="hover:text-white transition text-2xl" />
                     </Link>
                 </div>
             </div>
