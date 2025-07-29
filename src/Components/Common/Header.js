@@ -15,7 +15,7 @@ const Header = () => {
         { label: 'Casino Reviews', href: '/casino-reviews' },
         { label: 'Score Predictions', href: '/score-predictions' },
         { label: 'Price Predictions', href: '/price-predictions' },
-        { label: 'Poker', href: '/poker' },
+        { label: 'Poker', href: '/join-poker-tornament' },
     ];
 
     return (
