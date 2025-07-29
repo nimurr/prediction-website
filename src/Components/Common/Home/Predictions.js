@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { IoMdShareAlt } from "react-icons/io";
 
@@ -28,7 +29,10 @@ const Predictions = () => {
                                 <h2 className='text-3xl font-semibold capitalize'>Soccer: Real Madrid vs Barcelona</h2>
                                 <p className='font-medium mt-3'>Predict final score. Win <span className='text-[#4c1d95]'>$50</span> in crypto.</p>
                             </div>
-                            <button className='bg-gradient-to-tl from-[#4c1d95] to-[#a878f1] cursor-pointer transition-colors text-white py-3 px-8 rounded-full flex items-center gap-2'>Submit Prediction  <IoMdShareAlt className='text-2xl' /></button>
+                            <Link href={'/submit-prediction'} className='bg-gradient-to-tl max-w-64 justify-center from-[#4c1d95] to-[#a878f1] cursor-pointer transition-colors text-white py-3 px-8 rounded-full flex items-center  gap-2'>
+                            Submit Prediction  
+                            <IoMdShareAlt className='text-2xl' />
+                            </Link>
                         </div>
                     ))
                 }

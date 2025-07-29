@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { HiOutlineUserGroup } from 'react-icons/hi';
 import { IoMdShareAlt } from "react-icons/io";
@@ -24,11 +25,11 @@ const Bonuses = () => {
 
                             </div>
                             <div className='my-5'>
-                                <h2 className='text-2xl text-center font-semibold capitalize'>Soccer: Real Madrid vs Barcelona</h2>
+                                <h2 className='text-2xl text-center font-semibold capitalize'>BTC</h2>
                                 <p className='font-medium text-center mt-3'>Predict final score. Win <span className='text-[#4c1d95]'>$50</span> in crypto.</p>
                             </div>
                             <div className='flex items-center justify-center gap-5'>
-                                <button className='bg-gradient-to-tl from-[#4c1d95] to-[#a878f1] cursor-pointer transition-colors text-white py-3 px-4 rounded-full flex items-center gap-2'>Join Now  <HiOutlineUserGroup className='text-2xl text-normal' /></button>
+                                <Link href={'/price-predictions'} className='bg-gradient-to-tl from-[#4c1d95] to-[#a878f1] cursor-pointer transition-colors text-white py-3 px-4 rounded-full flex items-center gap-2'>Join Now  <HiOutlineUserGroup className='text-2xl text-normal' /></Link>
                                 <button className='border border-[#4c1d95] cursor-pointer  text-[#4c1d95] py-3 px-4 rounded-full flex items-center gap-2'>Read Review <TbMessage2Star className='text-2xl' /></button>
                             </div>
                         </div>

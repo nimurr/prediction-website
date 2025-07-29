@@ -11,10 +11,10 @@ const Header = () => {
 
     const navLinks = [
         { label: 'Home', href: '/' },
-        { label: 'Submit Prediction', href: '/submit' },
+        { label: 'Submit Prediction', href: '/submit-prediction' },
         { label: 'Casino Reviews', href: '/casino-reviews' },
         { label: 'Score Predictions', href: '/score-predictions' },
-        { label: 'Price Predictions', href: '/prices' },
+        { label: 'Price Predictions', href: '/price-predictions' },
         { label: 'Poker', href: '/poker' },
     ];
 

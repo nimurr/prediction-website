@@ -43,7 +43,7 @@ const Footer = () => {
                     <Link href="https://instagram.com" target="_blank" title='Instagram' aria-label="Instagram">
                         <FaInstagram className="hover:text-white transition text-2xl" />
                     </Link>
-                    
+
                 </div>
             </div>
         </footer>
