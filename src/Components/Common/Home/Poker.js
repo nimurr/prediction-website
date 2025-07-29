@@ -32,7 +32,7 @@ const Poker = () => {
                             </div>
                             <div className='flex items-center justify-between'>
                                 <button className='bg-[#4c1d95]  cursor-pointer text-white py-3 px-3 rounded-full'>Join 1Win</button>
-                                <Link href={'/join-poker-tornament'} className='bg-gradient-to-tl w-auto from-[#4c1d95] to-[#a878f1] cursor-pointer transition-colors text-white py-3 px-3 rounded-full flex items-center justify-center gap-2'>Join Tournament  <IoMdShareAlt className='text-2xl' /></Link>
+                                <Link href={'/join-poker-tornament-form'} className='bg-gradient-to-tl w-auto from-[#4c1d95] to-[#a878f1] cursor-pointer transition-colors text-white py-3 px-3 rounded-full flex items-center justify-center gap-2'>Join Tournament  <IoMdShareAlt className='text-2xl' /></Link>
                                 <button className='border-[#4c1d95] border-2 bg-purple-200 cursor-pointer py-3 px-3 rounded-full'>Details</button>
                             </div>
                         </div>
