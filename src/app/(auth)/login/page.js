@@ -12,18 +12,23 @@ const Page = () => {
     };
 
     return (
-        <div className='h-screen bg-gradient-to-b from-[#f9f5ff] to-[#b6a7ca]'>
-             <Link href="/">
-                <img className='md:pl-10 pt-10  md:w-60 w-48 mx-auto md:ml-0' src="/Images/Auth/logo2.png" alt="" />
-            </Link>
-            <div className='flex justify-center mt-20'>
-                <div className='min-w-80'>
-                    <h2 className='text-3xl font-medium text-center'>Login</h2>
+        <div className='h-screen grid lg:grid-cols-2 bg-gradient-to-b from-[#f9f5ff] to-[#b6a7ca]'>
+
+            {/* Left Column - Banner */}
+            <div className='lg:block hidden'>
+                <img className='h-screen w-full object-cover' src="/Images/Auth/auth-banner.png" alt="Auth Banner" />
+            </div>
+
+            {/* Right Column - Sign Up Form */}
+            <div className='lg:w-1/2 lg:ml-10 w-full flex items-center h-screen'>
+                <div className='w-96 mx-auto'>
+                    <h2 className='text-3xl font-medium mb-1'>Login</h2>
+                    <p>Please enter your email and password to continue</p>
                     <div className='mt-5'>
                         <label className='font-semibold' htmlFor="email">Email</label>
                         <input
                             placeholder='Enter your email'
-                            className='mt-2 w-full p-2 border border-green-400 rounded-md focus:outline-0 ring-0 bg-white'
+                            className='mt-2 w-full p-2 border border-[#4c1d95] rounded-md focus:outline-0 ring-0 bg-white'
                             type="email"
                             name="email"
                             id="email"
@@ -34,7 +39,7 @@ const Page = () => {
                         <div className='relative'>
                             <input
                                 placeholder='Enter your password'
-                                className='mt-2 w-full p-2 border border-green-400 rounded-md focus:outline-0 ring-0 bg-white'
+                                className='mt-2 w-full p-2 border border-[#4c1d95] rounded-md focus:outline-0 ring-0 bg-white'
                                 type={showPassword ? "text" : "password"} // Toggle password visibility
                                 name="password"
                                 id="password"
@@ -57,11 +62,12 @@ const Page = () => {
                         <Link className='text-blue-600 text-sm' href="/forgot-password">Forgot Password</Link>
                     </div>
                     <div className='mt-5'>
-                        <button className='cursor-pointer w-full p-2 bg-green-400 font-semibold text-white rounded-md'>Login</button>
+                        <button className='cursor-pointer w-full p-2 bg-[#4c1d95] font-semibold text-white rounded-md'>Login</button>
                     </div>
-                    <p className='text-center mt-5 text-gray-600'>Don't have an account? <Link className='text-blue-600' href="/signup-step" >Sign Up</Link></p>
+                    <p className='text-center mt-5 text-gray-600'>Don't have an account? <Link className='text-blue-600' href="/signup" >Sign Up</Link></p>
                 </div>
             </div>
+
         </div>
     );
 };

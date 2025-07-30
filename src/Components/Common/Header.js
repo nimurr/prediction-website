@@ -37,8 +37,8 @@ const Header = () => {
                                 key={link.label}
                                 href={link.href}
                                 className={`text-sm font-medium transition-colors ${isActive
-                                        ? 'text-[#4c1d95] font-semibold'
-                                        : 'text-gray-700 hover:text-[#4c1d95]'
+                                    ? 'text-[#4c1d95] font-semibold'
+                                    : 'text-gray-700 hover:text-[#4c1d95]'
                                     }`}
                             >
                                 {link.label}
@@ -48,12 +48,12 @@ const Header = () => {
 
                     <div className="flex gap-2 ml-4">
                         <Link href="/login">
-                            <button className="px-4 py-3 border border-[#4c1d95] text-[#4c1d95] rounded-md hover:bg-purple-50 text-sm font-medium">
+                            <button className="px-4 cursor-pointer py-3 border border-[#4c1d95] text-[#4c1d95] rounded-md hover:bg-purple-50 text-sm font-medium">
                                 Log In
                             </button>
                         </Link>
                         <Link href="/register">
-                            <button className="px-4 py-3 bg-[#4c1d95] text-white rounded-md hover:bg-[#4c1d95] text-sm font-medium">
+                            <button className="px-4 py-3 cursor-pointer bg-[#4c1d95] text-white rounded-md hover:bg-[#4c1d95] text-sm font-medium">
                                 Register
                             </button>
                         </Link>
@@ -80,8 +80,8 @@ const Header = () => {
                                 key={link.label}
                                 href={link.href}
                                 className={`block py-2 text-sm ${isActive
-                                        ? 'text-[#4c1d95] font-semibold'
-                                        : 'text-gray-700 hover:text-[#4c1d95]'
+                                    ? 'text-[#4c1d95] font-semibold'
+                                    : 'text-gray-700 hover:text-[#4c1d95]'
                                     }`}
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >

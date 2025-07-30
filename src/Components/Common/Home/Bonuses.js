@@ -30,7 +30,7 @@ const Bonuses = () => {
                             </div>
                             <div className='flex items-center justify-center gap-5'>
                                 <Link href={'/price-predictions-form'} className='bg-gradient-to-tl from-[#4c1d95] to-[#a878f1] cursor-pointer transition-colors text-white py-3 px-4 rounded-full flex items-center gap-2'>Join Now  <HiOutlineUserGroup className='text-2xl text-normal' /></Link>
-                                <button className='border border-[#4c1d95] cursor-pointer  text-[#4c1d95] py-3 px-4 rounded-full flex items-center gap-2'>Read Review <TbMessage2Star className='text-2xl' /></button>
+                                <Link href={'/casino-reviews/12254'} className='border border-[#4c1d95] cursor-pointer  text-[#4c1d95] py-3 px-4 rounded-full flex items-center gap-2'>Read Review <TbMessage2Star className='text-2xl' /></Link>
                             </div>
                         </div>
                     ))
