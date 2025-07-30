@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Page = () => {
     return (
-        <div className="contiainer lg:py-20 pt-10 ">
+        <div className="contiainer lg:py-20 py-10 px-5 lg:px-0">
 
             {/* Breadcrumb */}
             <div className="text-xl text-gray-600 mb-6">
@@ -14,8 +14,8 @@ const Page = () => {
             </div>
 
             {/* Profile Card */}
-            <div className="bg-gray-100 rounded-lg  px-6 py-20">
-                <div className="flex-shrink-0 mx-auto mb-5 md:mx-0">
+            <div className="bg-gray-100 rounded-lg  px-6 lg:py-20 py-10">
+                <div className="flex-shrink-0 mx-auto mb-10 md:mx-0">
                     <img
                         src="https://cdn-icons-png.flaticon.com/512/219/219988.png" // replace with actual path or use avatar from backend
                         alt="User Avatar"
@@ -49,9 +49,9 @@ const Page = () => {
 
                 {/* Update Button */}
                 <div className="mt-8">
-                    <button className="px-6 py-3 rounded-md bg-gradient-to-tl from-[#4c1d95] to-[#a878f1] cursor-pointer font-semibold text-white transition duration-200">
+                    <Link href={'/profile/edit'} className="px-6 inline-block py-3 rounded-md bg-gradient-to-tl from-[#4c1d95] to-[#a878f1] cursor-pointer font-semibold text-white transition duration-200">
                         Update Profile
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
